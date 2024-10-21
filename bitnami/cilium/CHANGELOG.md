@@ -1,8 +1,28 @@
 # Changelog
 
+## 1.2.5 (2024-10-16)
+
+* [bitnami/cilium] Release 1.2.5 ([#29932](https://github.com/bitnami/charts/pull/29932))
+
+## <small>1.2.4 (2024-10-01)</small>
+
+* [bitnami/cilium] Release 1.2.4 (#29686) ([88d2b2f](https://github.com/bitnami/charts/commit/88d2b2f731d0d184d72071b760034e61f5288b95)), closes [#29686](https://github.com/bitnami/charts/issues/29686)
+
+## <small>1.2.3 (2024-09-26)</small>
+
+* [bitnami/cilium] Release 1.2.3 (#29622) ([2622531](https://github.com/bitnami/charts/commit/26225310f448708843d71ab9abe12c5e3d57a697)), closes [#29622](https://github.com/bitnami/charts/issues/29622)
+
+## <small>1.2.2 (2024-09-06)</small>
+
+* [bitnami/cilium] Rollout restart Cilium sub-components for better VIB reliability (#29268) ([a8eb883](https://github.com/bitnami/charts/commit/a8eb883b0e032302e69343c1e7135e6558aab634)), closes [#29268](https://github.com/bitnami/charts/issues/29268)
+
+## <small>1.2.1 (2024-09-05)</small>
+
+* [bitnami/cilium] Release 1.2.1 (#29229) ([3f63741](https://github.com/bitnami/charts/commit/3f637418fd624a1fe2810964a4c1449ab74b9498)), closes [#29229](https://github.com/bitnami/charts/issues/29229)
+
 ## 1.2.0 (2024-09-05)
 
-* [bitnami/cilium] Add init-container on UI to wait for Hubble Relay ([#29207](https://github.com/bitnami/charts/pull/29207))
+* [bitnami/cilium] Add init-container on UI to wait for Hubble Relay (#29207) ([e007f69](https://github.com/bitnami/charts/commit/e007f6948df6da0ab231c6d750643062643adc8e)), closes [#29207](https://github.com/bitnami/charts/issues/29207)
 
 ## 1.1.0 (2024-09-04)
 

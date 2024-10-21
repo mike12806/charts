@@ -1,8 +1,53 @@
 # Changelog
 
-## 7.0.9 (2024-09-04)
+## 7.0.20 (2024-10-18)
 
-* [bitnami/argo-cd] Missing namespace in ArgoCD known-hosts cm ([#28877](https://github.com/bitnami/charts/pull/28877))
+* [bitnami/argo-cd] Release 7.0.20 ([#29997](https://github.com/bitnami/charts/pull/29997))
+
+## <small>7.0.19 (2024-10-17)</small>
+
+* [bitnami/argo-cd] Release 7.0.19 (#29977) ([83436f5](https://github.com/bitnami/charts/commit/83436f524ace533fd20d0bafec4b8411b444985f)), closes [#29977](https://github.com/bitnami/charts/issues/29977)
+* Update documentation links to techdocs.broadcom.com (#29931) ([f0d9ad7](https://github.com/bitnami/charts/commit/f0d9ad78f39f633d275fc576d32eae78ded4d0b8)), closes [#29931](https://github.com/bitnami/charts/issues/29931)
+
+## <small>7.0.18 (2024-10-09)</small>
+
+* [bitnami/argo-cd] Release 7.0.18 (#29845) ([0e2b67f](https://github.com/bitnami/charts/commit/0e2b67f8038c03b13c9f5e6ac200e38a853b5b8a)), closes [#29845](https://github.com/bitnami/charts/issues/29845)
+
+## <small>7.0.17 (2024-10-09)</small>
+
+* [bitnami/argo-cd] Release 7.0.17 (#29843) ([7cec653](https://github.com/bitnami/charts/commit/7cec653341ff906ef61ffc70bc30b1a5583d1dba)), closes [#29843](https://github.com/bitnami/charts/issues/29843)
+
+## <small>7.0.16 (2024-10-09)</small>
+
+* [bitnami/argo-cd] fix: provide a functional validation function for validation (#29724) ([6eac077](https://github.com/bitnami/charts/commit/6eac07766d63a2d2ec9713a8716d1ea394441e14)), closes [#29724](https://github.com/bitnami/charts/issues/29724)
+
+## <small>7.0.15 (2024-10-01)</small>
+
+* [bitnami/argo-cd] Release 7.0.15 (#29682) ([6b89f04](https://github.com/bitnami/charts/commit/6b89f04f14ccd7aa78811dea9642754899c102da)), closes [#29682](https://github.com/bitnami/charts/issues/29682)
+
+## <small>7.0.14 (2024-09-26)</small>
+
+* [bitnami/argo-cd] Release 7.0.14 (#29618) ([6f1e155](https://github.com/bitnami/charts/commit/6f1e1550bad7dcb0d5cf63e8280baa2d9d7787da)), closes [#29618](https://github.com/bitnami/charts/issues/29618)
+
+## <small>7.0.13 (2024-09-19)</small>
+
+* [bitnami/argo-cd] Release 7.0.13 (#29507) ([f590500](https://github.com/bitnami/charts/commit/f590500e460485aab7ac50f5e51fefb0d3ade9bd)), closes [#29507](https://github.com/bitnami/charts/issues/29507)
+
+## <small>7.0.12 (2024-09-15)</small>
+
+* [bitnami/argo-cd] Release 7.0.12 (#29429) ([0e6235b](https://github.com/bitnami/charts/commit/0e6235be7f2d0c76bc99785ae39eb9ac44fa0dd5)), closes [#29429](https://github.com/bitnami/charts/issues/29429)
+
+## <small>7.0.11 (2024-09-13)</small>
+
+* [bitnami/argo-cd] Fix duplicate `selector:` in applicationset deployment (#29386) ([dc6905f](https://github.com/bitnami/charts/commit/dc6905f9ca3d7ffaa59c0ac7d689ab91ade53a27)), closes [#29386](https://github.com/bitnami/charts/issues/29386)
+
+## <small>7.0.10 (2024-09-05)</small>
+
+* [bitnami/argo-cd] Release 7.0.10 (#29224) ([92a32cb](https://github.com/bitnami/charts/commit/92a32cbbf02f492afaa562a98303cd7921348827)), closes [#29224](https://github.com/bitnami/charts/issues/29224)
+
+## <small>7.0.9 (2024-09-04)</small>
+
+* [bitnami/argo-cd] Missing namespace in ArgoCD known-hosts cm (#28877) ([4780e8f](https://github.com/bitnami/charts/commit/4780e8fe5b70651fd1fc2c3c614583c42eacf150)), closes [#28877](https://github.com/bitnami/charts/issues/28877)
 
 ## <small>7.0.8 (2024-08-28)</small>
 

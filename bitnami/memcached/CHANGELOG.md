@@ -1,8 +1,33 @@
 # Changelog
 
-## 7.4.13 (2024-09-03)
+## 7.5.2 (2024-10-21)
 
-* [bitnami/memcached] Release 7.4.13 ([#29162](https://github.com/bitnami/charts/pull/29162))
+* [bitnami/memcached] Release 7.5.2 ([#30004](https://github.com/bitnami/charts/pull/30004))
+
+## <small>7.5.1 (2024-10-17)</small>
+
+* [bitnami/memcached] Release 7.5.1 (#29974) ([93ab813](https://github.com/bitnami/charts/commit/93ab8137138d45890625478410b7fd08d721f720)), closes [#29974](https://github.com/bitnami/charts/issues/29974)
+* Update documentation links to techdocs.broadcom.com (#29931) ([f0d9ad7](https://github.com/bitnami/charts/commit/f0d9ad78f39f633d275fc576d32eae78ded4d0b8)), closes [#29931](https://github.com/bitnami/charts/issues/29931)
+
+## 7.5.0 (2024-09-30)
+
+* [bitnami/memcached] Add optional emptyDir medium configuration (#29570) ([86d010b](https://github.com/bitnami/charts/commit/86d010b1e9ad189e2b30bb14fd4fce0fc457d082)), closes [#29570](https://github.com/bitnami/charts/issues/29570)
+
+## <small>7.4.16 (2024-09-11)</small>
+
+* [bitnami/memcached] Allow rendering resources values (#29345) ([69b2b1d](https://github.com/bitnami/charts/commit/69b2b1d49fffa5dddf0df18315e2fc8ba1daf14c)), closes [#29345](https://github.com/bitnami/charts/issues/29345)
+
+## <small>7.4.15 (2024-09-07)</small>
+
+* [bitnami/memcached] Release 7.4.15 (#29299) ([7feed29](https://github.com/bitnami/charts/commit/7feed294b11d97bfc85d376a7f106d830bdfb339)), closes [#29299](https://github.com/bitnami/charts/issues/29299)
+
+## <small>7.4.14 (2024-09-06)</small>
+
+* [bitnami/memcached] Release 7.4.14 (#29248) ([aff3554](https://github.com/bitnami/charts/commit/aff3554b6b16eee1d49977aaefba40c5d26d2a2d)), closes [#29248](https://github.com/bitnami/charts/issues/29248)
+
+## <small>7.4.13 (2024-09-03)</small>
+
+* [bitnami/memcached] Release 7.4.13 (#29162) ([b978860](https://github.com/bitnami/charts/commit/b9788608b4c18644ab58cb2132ca3435584ea131)), closes [#29162](https://github.com/bitnami/charts/issues/29162)
 
 ## <small>7.4.12 (2024-08-28)</small>
 

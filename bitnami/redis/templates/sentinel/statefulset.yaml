@@ -37,15 +37,15 @@ spec:
     metadata:
       labels: {{- include "common.labels.standard" ( dict "customLabels" $podLabels "context" $ ) | nindent 8 }}
         app.kubernetes.io/component: node
+        {{- if .Values.sentinel.masterService.enabled }}
+        app.kubernetes.io/role: slave
+        {{- end }}
         {{- if and .Values.metrics.enabled .Values.metrics.podLabels }}
         {{- include "common.tplvalues.render" ( dict "value" .Values.metrics.podLabels "context" $ ) | nindent 8 }}
         {{- end }}
       annotations:
         {{- if (include "redis.createConfigmap" .) }}
         checksum/configmap: {{ pick ( include (print $.Template.BasePath "/configmap.yaml") . | fromYaml ) "data" | toYaml | sha256sum }}
-        {{- end }}
-        {{- if .Values.sentinel.masterService.enabled }}
-        app.kubernetes.io/role: slave
         {{- end }}
         checksum/health: {{ pick ( include (print $.Template.BasePath "/health-configmap.yaml") . | fromYaml ) "data" | toYaml | sha256sum }}
         checksum/scripts: {{ pick ( include (print $.Template.BasePath "/scripts-configmap.yaml") . | fromYaml ) "data" | toYaml | sha256sum }}
@@ -57,6 +57,9 @@ spec:
         {{- include "common.tplvalues.render" ( dict "value" .Values.metrics.podAnnotations "context" $ ) | nindent 8 }}
         {{- end }}
     spec:
+      {{- if .Values.sentinel.extraPodSpec }}
+      {{- include "common.tplvalues.render" (dict "value" .Values.sentinel.extraPodSpec "context" $) | nindent 6 }}
+      {{- end }}
       {{- include "redis.imagePullSecrets" . | nindent 6 }}
       automountServiceAccountToken: {{ .Values.replica.automountServiceAccountToken }}
       {{- if .Values.replica.hostAliases }}
@@ -639,6 +642,10 @@ spec:
           {{- else }}
           securityContext: {{- .Values.volumePermissions.containerSecurityContext | toYaml | nindent 12 }}
           {{- end }}
+          {{- if .Values.volumePermissions.extraEnvVars }}
+          env:
+          {{- include "common.tplvalues.render" (dict "value" .Values.volumePermissions.extraEnvVars "context" $) | nindent 12 }}
+          {{- end }}
           {{- if .Values.volumePermissions.resources }}
           resources: {{- toYaml .Values.volumePermissions.resources | nindent 12 }}
           {{- else if ne .Values.volumePermissions.resourcesPreset "none" }}
@@ -805,7 +812,9 @@ spec:
         {{- end }}
         {{- include "common.storage.class" (dict "persistence" .Values.replica.persistence "global" .Values.global) | nindent 8 }}
     {{- if .Values.sentinel.persistence.enabled }}
-    - metadata:
+    - apiVersion: v1
+      kind: PersistentVolumeClaim
+      metadata:
         name: sentinel-data
         {{- $claimLabels := include "common.tplvalues.merge" ( dict "values" ( list .Values.sentinel.persistence.labels .Values.commonLabels ) "context" . ) }}
         labels: {{- include "common.labels.matchLabels" ( dict "customLabels" $claimLabels "context" $ ) | nindent 10 }}

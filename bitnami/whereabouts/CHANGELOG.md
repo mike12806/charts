@@ -1,8 +1,16 @@
 # Changelog
 
-## 1.1.12 (2024-08-27)
+## 1.1.14 (2024-10-02)
 
-* [bitnami/whereabouts] Release 1.1.12 ([#29060](https://github.com/bitnami/charts/pull/29060))
+* [bitnami/whereabouts] Release 1.1.14 ([#29722](https://github.com/bitnami/charts/pull/29722))
+
+## <small>1.1.13 (2024-09-06)</small>
+
+* [bitnami/whereabouts] Release 1.1.13 (#29264) ([73655d1](https://github.com/bitnami/charts/commit/73655d160953c3ee0771508db48cd1dc307558a5)), closes [#29264](https://github.com/bitnami/charts/issues/29264)
+
+## <small>1.1.12 (2024-08-27)</small>
+
+* [bitnami/whereabouts] Release 1.1.12 (#29060) ([70225d7](https://github.com/bitnami/charts/commit/70225d740a3558bccc9e14156f3ef4f8767f66d2)), closes [#29060](https://github.com/bitnami/charts/issues/29060)
 
 ## <small>1.1.11 (2024-08-07)</small>
 

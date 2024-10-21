@@ -1,8 +1,36 @@
 # Changelog
 
-## 8.3.4 (2024-08-30)
+## 8.4.5 (2024-10-17)
 
-* [bitnami/nats] Release 8.3.4 ([#29132](https://github.com/bitnami/charts/pull/29132))
+* [bitnami/nats] Release 8.4.5 ([#29975](https://github.com/bitnami/charts/pull/29975))
+
+## <small>8.4.4 (2024-10-02)</small>
+
+* [bitnami/nats] Release 8.4.4 (#29710) ([ee3e136](https://github.com/bitnami/charts/commit/ee3e1367e57cdbb3157668dab2904997d39dea20)), closes [#29710](https://github.com/bitnami/charts/issues/29710)
+
+## <small>8.4.3 (2024-09-26)</small>
+
+* [bitnami/nats] Release 8.4.3 (#29629) ([9b3d1fa](https://github.com/bitnami/charts/commit/9b3d1fa0732f8be0689806ec21fbc3dd65125cc9)), closes [#29629](https://github.com/bitnami/charts/issues/29629)
+
+## <small>8.4.2 (2024-09-17)</small>
+
+* [bitnami/nats] Improve Ginkgo tests (#29462) ([3ec3cfb](https://github.com/bitnami/charts/commit/3ec3cfb0596ab1a5360ecc530842646bcd2a581a)), closes [#29462](https://github.com/bitnami/charts/issues/29462)
+
+## <small>8.4.1 (2024-09-16)</small>
+
+* [bitnami/nats] Fix single replica Jetstream (#29379) ([4959500](https://github.com/bitnami/charts/commit/4959500b4987deb760d38e06d181022bacc3308d)), closes [#29379](https://github.com/bitnami/charts/issues/29379)
+
+## 8.4.0 (2024-09-12)
+
+* [bitnami/nats] Add `PersistentVolumeRetentionPolicy` (#29371) ([15d5c40](https://github.com/bitnami/charts/commit/15d5c40828d572501ad98281c3afff73e36a2a71)), closes [#29371](https://github.com/bitnami/charts/issues/29371)
+
+## <small>8.3.5 (2024-09-06)</small>
+
+* [bitnami/nats] Release 8.3.5 (#29253) ([a1687c9](https://github.com/bitnami/charts/commit/a1687c981454b4ec06fbc05993a6c498e5b29bcd)), closes [#29253](https://github.com/bitnami/charts/issues/29253)
+
+## <small>8.3.4 (2024-08-30)</small>
+
+* [bitnami/nats] Release 8.3.4 (#29132) ([96e3084](https://github.com/bitnami/charts/commit/96e308493174de2b481ad857ac24b4fc1a37672a)), closes [#29132](https://github.com/bitnami/charts/issues/29132)
 
 ## <small>8.3.3 (2024-08-29)</small>
 
